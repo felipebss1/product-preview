@@ -1,35 +1,49 @@
-# product-preview-card
+# Frontend Mentor - Product preview card component solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Recommended IDE Setup
+## Table of contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Frontend Mentor - Product preview card component solution](#frontend-mentor---product-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+  - [Author](#author)
 
-## Customize configuration
+## Overview
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### The challenge
 
-## Project Setup
+Users should be able to:
 
-```sh
-npm install
-```
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
 
-### Compile and Hot-Reload for Development
+### Links
 
-```sh
-npm run dev
-```
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-### Compile and Minify for Production
+## My process
 
-```sh
-npm run build
-```
+### Built with
 
-### Lint with [ESLint](https://eslint.org/)
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [Vue](https://vuejs.org/) - JS library
+- [TailwindCSS](https://tailwindcss.com/) - For styles
 
-```sh
-npm run lint
-```
+### What I learned
+
+With this challenge I could improve even more my skills with CSS and tags HTML5, also I'm looking for improvement of the time I use to finish this challenges, and I noticed I'm a bit faster.
+
+## Author
+
+- LinkedIn - [Bruno Soares](https://www.linkedin.com/in/bruno-soares-0ba58a44/)
+- Frontend Mentor - [@felipebss1](https://www.frontendmentor.io/profile/felipebss1)
