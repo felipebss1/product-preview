@@ -1,10 +1,17 @@
 <template>
-  <main class="max-w-[375px] w-11/12 mx-auto rounded-lg bg-white">
+  <main
+    class="md:flex max-w-[375px] md:max-w-[590px] w-11/12 mx-auto rounded-lg bg-white"
+  >
     <figure>
       <img
         src="./assets/images/image-product-mobile.jpg"
         alt="perfume picture"
-        class="rounded-t-lg"
+        class="rounded-t-lg md:hidden"
+      />
+      <img
+        src="./assets/images/image-product-desktop.jpg"
+        alt="perfume picture"
+        class="hidden md:flex rounded-l-lg pr-6"
       />
     </figure>
     <div class="w-10/12 mx-auto">
@@ -16,30 +23,25 @@
       <p class="my-3 text-[#1c232b] text-3xl font-bold font-['Fraunces']">
         Gabrielle Essence Eau De Parfum
       </p>
-      <p class="text-[#6c7289] text-sm">
+      <p class="text-[#6c7289] text-[0.98rem] md:text-[1.07rem]">
         A floral, solar and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANEL.
       </p>
-      <div class="mt-10">
+      <div class="flex mt-10">
         <span class="font-['Fraunces'] text-3xl pr-4 text-[#3c8067] font-bold"
           >$149.99</span
         >
-        <span class="line-through text-[#6c7289]">$169.99</span>
-      </div>
-      <div class="my-5 bg-[#3c8067] rounded-lg font-['Montserrat'] text-sm">
-        <button
-          type="button"
-          class="flex items-center py-4 w-full justify-center text-white hover:bg-[#1a4031] hover:rounded-lg"
+        <span class="flex items-center line-through text-[#6c7289]"
+          >$169.99</span
         >
-          <img
-            class="pr-3"
-            src="./assets/images/icon-cart.svg"
-            alt="cart icon"
-          />
-          Add to Cart
-        </button>
       </div>
-      <!-- Mudar essa bagaça amannhã, verificar se era realmente necessário a div envolta do button -->
+      <button
+        type="button"
+        class="flex items-center py-4 md:py-3 w-full md:w-11/12 justify-center text-white my-5 bg-[#3c8067] rounded-lg font-['Montserrat'] text-sm hover:bg-[#1a4031] hover:rounded-lg"
+      >
+        <img class="pr-3" src="./assets/images/icon-cart.svg" alt="cart icon" />
+        Add to Cart
+      </button>
     </div>
   </main>
   <footer>
